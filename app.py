@@ -59,7 +59,6 @@ def predict_cluster(username, password, algorithm, k, *features):
         return f"✅ This data point belongs to **Cluster {cluster}** (Hierarchical)"
 
     elif algorithm == "DBSCAN":
-        # Compute distance to core points
         dists = euclidean_distances(features_scaled, dbscan_core_samples)
         nearest_idx = np.argmin(dists)
         nearest_dist = dists[0, nearest_idx]
