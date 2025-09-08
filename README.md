@@ -55,4 +55,32 @@ pip install gradio pandas numpy scikit-learn matplotlib
 
 ---
 
-## AUTHOR:KAVINKUMAR T
+# Clustering Analysis Results
+
+This project performs clustering on a dataset using three different algorithms: **KMeans**, **Hierarchical Clustering**, and **DBSCAN**. Below are the results comparing the number of clusters and the Silhouette Score for each algorithm.
+
+| Algorithm    | Number of Clusters | Silhouette Score | Notes                                     |
+| ----------- | ------------------ | --------------- | --------------------------------------      |
+| KMeans      | 2                  | 0.47            | Best score among the three                  |
+| Hierarchical| 2                  | 0.39            | Slightly lower than KMeans                  |
+| DBSCAN      | 4                  | 0.23            | Slightly lower than KMeans and Hierarchical |
+
+---
+
+## Summary
+
+- **KMeans** achieved the best silhouette score of **0.47** with **2 clusters**.
+- **Hierarchical Clustering** performed reasonably well with a silhouette score of **0.39**.
+- **DBSCAN** identified **4 clusters**, but with a lower silhouette score of **0.23**.
+
+---
+
+## Conclusion
+
+Based on the silhouette scores, **KMeans with 2 clusters** is the most appropriate clustering method for this dataset.
+
+---
+
+**AUTHOR:KAVINKUMAR T**
+
+---
