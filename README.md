@@ -20,7 +20,7 @@ This is a simple clustering application built using **Gradio**, which allows you
 ## ⚙️ How to Run
 
 ### 1️⃣ Install dependencies:
-```bash
+
 pip install gradio pandas numpy scikit-learn matplotlib
 
 ---
@@ -52,3 +52,7 @@ pip install gradio pandas numpy scikit-learn matplotlib
 - Add functionality to export predictions as CSV.
 - Deploy online using platforms like Hugging Face Spaces.
 - Add graphical cluster visualization for each algorithm.
+
+---
+
+## AUTHOR:KAVINKUMAR T
