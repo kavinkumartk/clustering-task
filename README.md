@@ -27,7 +27,7 @@ pip install gradio pandas numpy scikit-learn matplotlib
 ## 🌐 Access the App
 
 👉 Open your browser and visit:  
-[http://127.0.0.1:7864](https://huggingface.co/spaces/kavin2906/cluster_creditcard)
+[https://huggingface.co/spaces/kavin2906/cluster_creditcard](https://huggingface.co/spaces/kavin2906/cluster_creditcard)
 
 ---
 
